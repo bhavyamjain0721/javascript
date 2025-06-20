@@ -19,6 +19,6 @@
 // console.log(undefined >0);   //false                                                                | 
 // console.log(undefined <0);   //false  --------------------------------------------------------------|
 
-//            strip chek  (==) //  YE VALUE OR DATA TYPE KO CHEKL KERTA HAI 
+//            strip chek  (==) //  YE VALUE OR DATATYPE KO CHEKL KERTA HAI 
 
 console.log("2" ===2);
