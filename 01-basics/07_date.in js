@@ -1,0 +1,42 @@
+//  DATES
+
+let mydate = new Date();
+// console.log(mydate); // Current date and time //output: current date and time in ISO format ex:- "2023-10-01T12:34:56.789Z"
+// console.log(mydate.toString()); // String representation of the date //output: "Sun Oct 01 2023 12:34:56 GMT+0000 (Coordinated Universal Time)"
+// console.log(mydate.toUTCString()); // UTC string representation of the date //output: "Sun, 01 Oct 2023 12:34:56 GMT"
+// console.log(mydate.toDateString()); // Date in a human-readable format//output: "Sun Oct 01 2023"
+// console.log(mydate.toISOString()); // ISO format of the date//     output: "2023-10-01T12:34:56.789Z"
+// console.log(mydate.toLocaleString()); // Localized string representation of the date //output depends on the locale settings of the environment, e.g., "10/1/2023, 12:34:56 PM"
+// console.log(mydate.getFullYear()); // Get the full year (e.g., 2023)//output: 2023
+// console.log(mydate.getMonth()); // Get the month (0-11, where 0 is January)//output:
+// console.log(mydate.getDate()); // Get the day of the month (1-31)
+// console.log(mydate.getDay()); // Get the day of the week (0-6, where 0 is Sunday)
+// console.log(mydate.getHours()); // Get the hour (0-23)
+// console.log(mydate.getMinutes()); // Get the minutes (0-59)
+// console.log(mydate.getSeconds()); // Get the seconds (0-59)
+// console.log(mydate.getMilliseconds()); // Get the milliseconds (0-999)
+// console.log(mydate.getTime()); // Get the timestamp (milliseconds since January 1, 1970)
+// console.log(mydate.getTimezoneOffset()); // Get the timezone offset in minutes 
+// console.log(typeof mydate); // Output the type of mydate //output: "object"
+    
+let myCreateddate = new Date("2025,11,25");
+// console.log(myCreateddate.toDateString ()); // Output the created date //output: "Thu Jan 23 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+// console.log(myCreateddate.toISOString ()); // Output the created date in ISO format //output: "2025-01-23T00:00:00.000Z"
+// console.log(myCreateddate.toLocaleString ()); // Output the created date in local format //output depends on the locale settings of the environment, e.g., "1/23/2025, 12:00:00 AM"
+// console.log(myCreateddate.getFullYear ()); // Output the year of the created date //output: 2025
+// console.log(myCreateddate.getMonth ()); // Output the month of the created date (0-11) //output: 
+
+let mytimestamp = Date.now();
+// console.log(mytimestamp); // Output the current timestamp in milliseconds since January 1, 1970 //output: e.g., 1706784000000
+// console.log(myCreateddate.getTime()); // Output the timestamp of the created date //output: e.g., 1705968000000
+// console.log(math.floor(Date.now() / 1000)); // Output the current timestamp in seconds since January 1, 1970 //output: e.g., 1706784000
+// console.log(myCreateddate.getTime() / 1000); // Output the timestamp of the created date in seconds //output: e.g., 1705968000
+
+let newdate = new Date();
+console.log(newdate);
+console.log(newdate.getMonth);
+console.log(newdate.getDate() + 1); // Adding 1 to the current date to get the next day);//output: e.g., if today is 1st, it will output 2
+console.log(newdate.getDate() - 1); // Subtracting 1 from the current date to get the previous day//output: e.g., if today is 1st, it will output 31 (of the previous month)
+console.log(newdate.getDate() + 7); // Adding 7 to the current date to get the date a week later//output: e.g., if today is 1st, it will output 8
+console.log(newdate.getDate() - 7); // Subtracting 7 from the current date to get the date a week earlier//output: e.g., if today is 1st, it will output 25 (of the previous month)
+console.log(newdate.getDay()); // Getting the current day of the week (0-6, where 0 is Sunday)//output: e.g., if today is Sunday, it will output 0
